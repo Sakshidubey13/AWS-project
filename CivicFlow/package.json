@@ -1,0 +1,23 @@
+{
+  "name": "civicflow",
+  "version": "1.0.0",
+  "description": "AI-powered civic issue reporting, prioritization, tracking, and community verification platform",
+  "main": "server/index.js",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "start": "node server/index.js",
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "civic-tech",
+    "ai",
+    "react",
+    "node",
+    "aws",
+    "smart-city"
+  ],
+  "author": "CivicFlow Team",
+  "license": "MIT"
+}
