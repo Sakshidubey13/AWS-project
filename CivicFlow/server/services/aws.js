@@ -17,6 +17,9 @@ async function analyzeIssueWithBedrock(title, description, imageUrl) {
     }
   }
 
+
+  
+
   // Intelligent AI Analyzer (simulating Amazon Bedrock Claude 3 / Titan Multimodal analysis)
   const text = `${title} ${description}`.toLowerCase();
   
